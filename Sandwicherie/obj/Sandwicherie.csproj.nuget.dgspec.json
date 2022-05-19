@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alois\\Documents\\4AL\\Design Patterns en C#\\Sandwicherie\\Sandwicherie\\Sandwicherie.csproj": {}
+    "/home/chtitski_icha/RiderProjects/Sandwicherie/Sandwicherie/Sandwicherie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alois\\Documents\\4AL\\Design Patterns en C#\\Sandwicherie\\Sandwicherie\\Sandwicherie.csproj": {
+    "/home/chtitski_icha/RiderProjects/Sandwicherie/Sandwicherie/Sandwicherie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alois\\Documents\\4AL\\Design Patterns en C#\\Sandwicherie\\Sandwicherie\\Sandwicherie.csproj",
+        "projectUniqueName": "/home/chtitski_icha/RiderProjects/Sandwicherie/Sandwicherie/Sandwicherie.csproj",
         "projectName": "Sandwicherie",
-        "projectPath": "C:\\Users\\alois\\Documents\\4AL\\Design Patterns en C#\\Sandwicherie\\Sandwicherie\\Sandwicherie.csproj",
-        "packagesPath": "C:\\Users\\alois\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alois\\Documents\\4AL\\Design Patterns en C#\\Sandwicherie\\Sandwicherie\\obj\\",
+        "projectPath": "/home/chtitski_icha/RiderProjects/Sandwicherie/Sandwicherie/Sandwicherie.csproj",
+        "packagesPath": "/home/chtitski_icha/.nuget/packages/",
+        "outputPath": "/home/chtitski_icha/RiderProjects/Sandwicherie/Sandwicherie/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alois\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/chtitski_icha/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\alois\\.dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }
