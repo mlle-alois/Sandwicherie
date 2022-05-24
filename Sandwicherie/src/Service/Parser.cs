@@ -5,6 +5,6 @@ namespace Sandwicherie.Service
 {
     public interface Parser
     {
-        List<Sandwich> Parse(string input);
+        Dictionary<Sandwich, int> Parse(string input);
     }
 }

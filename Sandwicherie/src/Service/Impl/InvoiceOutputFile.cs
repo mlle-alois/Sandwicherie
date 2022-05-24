@@ -6,7 +6,7 @@ namespace Sandwicherie.Service.Impl
 {
     public class InvoiceOutputFile:InvoiceOutput
     {
-        public void Apply(List<Sandwich> sandwiches)
+        public void Apply(Dictionary<Sandwich, int> sandwiches)
         {
             throw new NotImplementedException();
         }

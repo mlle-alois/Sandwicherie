@@ -5,9 +5,9 @@ namespace Sandwicherie.Model
 {
     public class Sandwich
     {
-        private String Name { get; }
-        private List<Ingredient> Ingredients { get; }
-        private Double Price { get; }
+        public string Name { get; }
+        public List<Ingredient> Ingredients { get; }
+        public double Price { get; }
 
         public Sandwich(string name, List<Ingredient> ingredients, double price)
         {

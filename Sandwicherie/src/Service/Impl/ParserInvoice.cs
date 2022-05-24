@@ -3,35 +3,43 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using Sandwicherie.Model;
+using Sandwicherie.Repository;
 
 namespace Sandwicherie.Service.Impl;
 
 public class ParserInvoice : Parser
 {
-    public List<Sandwich> Parse(string input)
+    public Dictionary<Sandwich, int> Parse(string input)
     {
-        var sandwiches = new List<Sandwich>();
-        
+        var sandwichesMap = new Dictionary<Sandwich, int>
+        {
+            { SandwichDatastore.sandwiches[0], 0 },
+            { SandwichDatastore.sandwiches[1], 0 },
+            { SandwichDatastore.sandwiches[2], 0 }
+        };
+
         var stringSandwiches = input.Split(',').ToList().ConvertAll(sandwich => sandwich.Trim());
         foreach (var stringSandwich in stringSandwiches)
         {
-            Console.WriteLine(stringSandwich);
-            
             Regex regex = new Regex(@"[0-9]* [A-Za-zé]*");
             if (!regex.IsMatch(stringSandwich))
             {
-                Console.WriteLine("Invalid order");
-                return sandwiches;
+                Console.WriteLine("Invalid sandwich (" + stringSandwich + ")");
+                continue;
             }
-        }
-        return new List<Sandwich>()
-        {
-            new Sandwich("Jambon beurre", new List<Ingredient>()
+
+            var splitedSandwich = stringSandwich.Split(new[] { ' ' }, 2).ToList();
+
+            var foundSandwich = SandwichDatastore.sandwiches.Find(sandwich => sandwich.Name.Equals(splitedSandwich[1]));
+            if (foundSandwich == null)
             {
-                { new(IngredientElement.BREAD, 1, Unit.EMPTY) },
-                { new(IngredientElement.HAM, 1, Unit.EMPTY) },
-                { new(IngredientElement.BUTTER, 10, Unit.GRAM) }
-            }, 3.5)
-        };
+                Console.WriteLine("Unknown sandwich (" + splitedSandwich[1] + ")");
+                continue;
+            }
+            var numberOfSandwiches = int.Parse(splitedSandwich[0]);
+            sandwichesMap[foundSandwich] = numberOfSandwiches + sandwichesMap[foundSandwich];
+        }
+
+        return sandwichesMap;
     }
 }

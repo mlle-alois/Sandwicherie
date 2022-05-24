@@ -5,6 +5,6 @@ namespace Sandwicherie.Service
 {
     public interface InvoiceOutput
     {
-        void Apply(List<Sandwich> sandwiches);
+        void Apply(Dictionary<Sandwich, int> sandwichesMap);
     }
 }

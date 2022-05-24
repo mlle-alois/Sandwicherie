@@ -5,7 +5,7 @@ namespace Sandwicherie.Service.Impl
 {
     public class InvoiceOutputLogger:InvoiceOutput
     {
-        public void Apply(List<Sandwich> sandwiches)
+        public void Apply(Dictionary<Sandwich, int> sandwichesMap)
         {
             
         }
