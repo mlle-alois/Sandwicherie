@@ -2,6 +2,10 @@ namespace Sandwicherie.src.service.impl
 {
 public class InputReaderCLI : InputReader
 {
-    void read(){}
+    public string read()
+    {
+        Console.Write("Test");
+        return "";
+    }
 }
 }

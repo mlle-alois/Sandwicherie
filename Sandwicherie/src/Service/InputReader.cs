@@ -1,6 +1,7 @@
 namespace Sandwicherie.src.service
 {
-public interface InputReader {
-   void read()
+public interface InputReader
+{
+   string read();
 }
 }

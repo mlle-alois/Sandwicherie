@@ -1,7 +1,12 @@
+using Sandwicherie.src.service;
+
 namespace Sandwicherie.src.Service.Impl
 {
     public class InvoiceOutputLogger:InvoiceOutput
     {
-        void print(){}
+        public void apply(List<Sandwich> sandwiches)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
