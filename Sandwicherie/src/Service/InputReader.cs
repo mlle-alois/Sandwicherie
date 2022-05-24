@@ -1,8 +1,8 @@
-namespace Sandwicherie.src.service
+namespace Sandwicherie.Service
 {
     public interface InputReader
     {
-        string read();
-        bool stopInput();
+        string Read();
+        bool StopInput();
     }
 }

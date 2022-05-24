@@ -1,9 +1,10 @@
 using System.Collections.Generic;
+using Sandwicherie.Model;
 
-namespace Sandwicherie.src.service
+namespace Sandwicherie.Service
 {
     public interface InvoiceOutput
     {
-        void apply(List<Sandwich> sandwiches);
+        void Apply(List<Sandwich> sandwiches);
     }
 }

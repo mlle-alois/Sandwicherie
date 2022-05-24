@@ -1,9 +1,10 @@
 using System.Collections.Generic;
+using Sandwicherie.Model;
 
-namespace Sandwicherie.src.service
+namespace Sandwicherie.Service
 {
     public interface Parser
     {
-        List<Sandwich> parse(string input);
+        List<Sandwich> Parse(string input);
     }
 }

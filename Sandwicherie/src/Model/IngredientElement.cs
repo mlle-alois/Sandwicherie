@@ -1,4 +1,4 @@
-namespace Sandwicherie
+namespace Sandwicherie.Model
 {
     public enum IngredientElement
     {

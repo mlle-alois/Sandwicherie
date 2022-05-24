@@ -1,21 +1,21 @@
 using System;
 
-namespace Sandwicherie.src.service.impl
+namespace Sandwicherie.Service.Impl
 {
 public class InputReaderCLI : InputReader
 {
     
-    public string read()
+    public string Read()
     {
-        Console.Write("What is your order ?\n");
+        Console.WriteLine("What is your order ?");
         return Console.ReadLine();
     }
 
-    public bool stopInput()
+    public bool StopInput()
     {
         while (true)
         {
-            Console.Write("Do you want to order again ? (y/n)\n");
+            Console.WriteLine("Do you want to order again ? (y/n)");
             var answer = Console.ReadLine();
             if (answer != null)
                 switch (answer.ToLower())
@@ -25,7 +25,7 @@ public class InputReaderCLI : InputReader
                     case "n":
                         return true;
                     default:
-                        Console.Write("Invalid answer!\n");
+                        Console.WriteLine("Invalid answer!");
                         continue;
                 }
         }

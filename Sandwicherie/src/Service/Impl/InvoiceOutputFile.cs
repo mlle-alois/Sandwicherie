@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Sandwicherie.src.service;
+using Sandwicherie.Model;
 
-namespace Sandwicherie.src.Service.Impl
+namespace Sandwicherie.Service.Impl
 {
     public class InvoiceOutputFile:InvoiceOutput
     {
-        public void apply(List<Sandwich> sandwiches)
+        public void Apply(List<Sandwich> sandwiches)
         {
             throw new NotImplementedException();
         }

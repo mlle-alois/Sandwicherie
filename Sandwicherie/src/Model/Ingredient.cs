@@ -1,18 +1,18 @@
 using System;
 
-namespace Sandwicherie
+namespace Sandwicherie.Model
 {
     public class Ingredient
     {
-        private IngredientElement element { get; }
-        private Double quantity { get; }
-        private Unit unit { get; }
+        private IngredientElement Element { get; }
+        private Double Quantity { get; }
+        private Unit Unit { get; }
 
         public Ingredient(IngredientElement element, double quantity, Unit unit)
         {
-            this.quantity = quantity;
-            this.element = element;
-            this.unit = unit;
+            Quantity = quantity;
+            Element = element;
+            Unit = unit;
         }
     }
 }

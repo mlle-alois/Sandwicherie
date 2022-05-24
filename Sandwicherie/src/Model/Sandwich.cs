@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Sandwicherie
+namespace Sandwicherie.Model
 {
     public class Sandwich
     {
-        private String name { get; }
-        private List<Ingredient> ingredients { get; }
-        private Double price { get; }
+        private String Name { get; }
+        private List<Ingredient> Ingredients { get; }
+        private Double Price { get; }
 
         public Sandwich(string name, List<Ingredient> ingredients, double price)
         {
-            this.ingredients = ingredients;
-            this.name = name;
-            this.price = price;
+            this.Ingredients = ingredients;
+            this.Name = name;
+            this.Price = price;
         }
     }
 }
