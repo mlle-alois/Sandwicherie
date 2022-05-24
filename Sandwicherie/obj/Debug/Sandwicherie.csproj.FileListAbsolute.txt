@@ -1,0 +1,7 @@
+C:\Users\alois\Documents\4AL\Design Patterns en C#\Sandwicherie\Sandwicherie\bin\Debug\Sandwicherie.exe
+C:\Users\alois\Documents\4AL\Design Patterns en C#\Sandwicherie\Sandwicherie\bin\Debug\Sandwicherie.pdb
+C:\Users\alois\Documents\4AL\Design Patterns en C#\Sandwicherie\Sandwicherie\obj\Debug\Sandwicherie.csproj.AssemblyReference.cache
+C:\Users\alois\Documents\4AL\Design Patterns en C#\Sandwicherie\Sandwicherie\obj\Debug\Sandwicherie.csproj.SuggestedBindingRedirects.cache
+C:\Users\alois\Documents\4AL\Design Patterns en C#\Sandwicherie\Sandwicherie\obj\Debug\Sandwicherie.csproj.CoreCompileInputs.cache
+C:\Users\alois\Documents\4AL\Design Patterns en C#\Sandwicherie\Sandwicherie\obj\Debug\Sandwicherie.exe
+C:\Users\alois\Documents\4AL\Design Patterns en C#\Sandwicherie\Sandwicherie\obj\Debug\Sandwicherie.pdb

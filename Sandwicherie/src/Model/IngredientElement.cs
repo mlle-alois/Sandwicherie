@@ -1,6 +1,15 @@
-namespace Sandwicherie;
-
-public enum IngredientElement
+namespace Sandwicherie
 {
-    BREAD,HAM,BUTTER,SALAD,EGG,TOMATO,MAYONNAISE,TUNA,CHICKEN_SLICE
+    public enum IngredientElement
+    {
+        BREAD,
+        HAM,
+        BUTTER,
+        SALAD,
+        EGG,
+        TOMATO,
+        MAYONNAISE,
+        TUNA,
+        CHICKEN_SLICE
+    }
 }

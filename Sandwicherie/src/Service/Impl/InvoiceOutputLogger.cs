@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using Sandwicherie.src.service;
 
 namespace Sandwicherie.src.Service.Impl
@@ -6,7 +8,7 @@ namespace Sandwicherie.src.Service.Impl
     {
         public void apply(List<Sandwich> sandwiches)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

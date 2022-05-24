@@ -1,15 +1,19 @@
-﻿namespace Sandwicherie;
+﻿using System;
+using System.Collections.Generic;
 
-public class Sandwich
+namespace Sandwicherie
 {
-    private String name { get; }
-    private List<Ingredient> ingredients { get; }
-    private Double price { get; }
-
-    public Sandwich(string name, List<Ingredient> ingredients, double price)
+    public class Sandwich
     {
-        this.ingredients = ingredients;
-        this.name = name;
-        this.price = price;
+        private String name { get; }
+        private List<Ingredient> ingredients { get; }
+        private Double price { get; }
+
+        public Sandwich(string name, List<Ingredient> ingredients, double price)
+        {
+            this.ingredients = ingredients;
+            this.name = name;
+            this.price = price;
+        }
     }
 }

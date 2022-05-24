@@ -1,6 +1,8 @@
-namespace Sandwicherie;
-
-public enum Unit
+namespace Sandwicherie
 {
-    GRAM,EMPTY
+    public enum Unit
+    {
+        GRAM,
+        EMPTY
+    }
 }
