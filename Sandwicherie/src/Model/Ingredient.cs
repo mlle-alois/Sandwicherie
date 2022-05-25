@@ -4,9 +4,9 @@ namespace Sandwicherie.Model
 {
     public class Ingredient
     {
-        private IngredientElement Element { get; }
-        private Double Quantity { get; }
-        private Unit Unit { get; }
+        public IngredientElement Element { get; }
+        public Double Quantity { get; }
+        public Unit Unit { get; }
 
         public Ingredient(IngredientElement element, double quantity, Unit unit)
         {
