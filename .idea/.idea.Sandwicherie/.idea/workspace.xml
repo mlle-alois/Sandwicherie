@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c533ae0-4837-434c-8f2d-87802e2401cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Sandwicherie/src/Model/EnumExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sandwicherie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sandwicherie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/Sandwicherie.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/Sandwicherie.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/bin/Debug/Sandwicherie.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/bin/Debug/Sandwicherie.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/bin/Debug/Sandwicherie.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/bin/Debug/Sandwicherie.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/obj/Debug/Sandwicherie.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/obj/Debug/Sandwicherie.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/obj/Debug/Sandwicherie.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/obj/Debug/Sandwicherie.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/obj/Debug/Sandwicherie.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/obj/Debug/Sandwicherie.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/src/Model/IngredientElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/src/Model/IngredientElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/src/Repository/DataStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/src/Repository/DataStore.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sandwicherie/src/Service/Impl/InvoiceOutputLogger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/src/Service/Impl/InvoiceOutputLogger.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653411360668</updated>
       <workItem from="1653411390499" duration="98000" />
-      <workItem from="1653496088259" duration="931000" />
+      <workItem from="1653496088259" duration="2361000" />
     </task>
     <servers />
   </component>
@@ -67,6 +77,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

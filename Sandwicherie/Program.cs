@@ -7,7 +7,7 @@ namespace Sandwicherie
 {
     internal class Program
     {
-        // TODO 1 Jambon beurre, 2 Poulet crudités, 3 Jambon beurre, 3 Dieppois
+        // TODO 1 Ham butter, 2 Chicken and raw vegetables, 3 Ham butter, 3 Dieppois
         public static void Main(string[] args)
         {
             InputReader inputReader = new InputReaderCLI();

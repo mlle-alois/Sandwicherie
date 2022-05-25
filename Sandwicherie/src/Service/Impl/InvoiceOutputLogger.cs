@@ -1,10 +1,11 @@
 using System;
 using System.Collections.Generic;
+using System.Text;
 using Sandwicherie.Model;
 
 namespace Sandwicherie.Service.Impl
 {
-    public class InvoiceOutputLogger:InvoiceOutput
+    public class InvoiceOutputLogger : InvoiceOutput
     {
         public void Apply(Dictionary<Sandwich, int> sandwichesMap)
         {
@@ -18,11 +19,16 @@ namespace Sandwicherie.Service.Impl
                     Console.WriteLine(numberOfSandwiches + " " + keyValuePair.Key.Name);
                     foreach (var ingredient in keyValuePair.Key.Ingredients)
                     {
-                        Console.WriteLine("\t"+ ingredient.Quantity+ingredient.Unit+" "+ingredient.Element); 
+                        Console.WriteLine("\t" + ingredient.Quantity + //TODO ? ingredient.Quantity * numberOfSandwiches
+                                          ingredient.Unit.ToDescriptionString() + " " +
+                                          ingredient.Element.ToDescriptionString());
                     }
                 }
             }
-            Console.WriteLine("Total price : " + totalAmount+"€");
+
+            if (!(totalAmount > 0)) return;
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine("Total price : " + totalAmount + "€");
         }
     }
 }

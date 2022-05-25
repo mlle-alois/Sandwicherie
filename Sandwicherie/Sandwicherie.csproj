@@ -42,6 +42,7 @@
     <ItemGroup>
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="src\Model\EnumExtensions.cs" />
         <Compile Include="src\Model\Ingredient.cs" />
         <Compile Include="src\Model\IngredientElement.cs" />
         <Compile Include="src\Model\Sandwich.cs" />
