@@ -14,15 +14,13 @@ namespace Sandwicherie.Service.Impl
             {
                 var numberOfSandwiches = keyValuePair.Value;
                 totalAmount += numberOfSandwiches * keyValuePair.Key.Price;
-                if (numberOfSandwiches > 0)
+                if (numberOfSandwiches <= 0) continue;
+                Console.WriteLine(numberOfSandwiches + " " + keyValuePair.Key.Name);
+                foreach (var ingredient in keyValuePair.Key.Ingredients)
                 {
-                    Console.WriteLine(numberOfSandwiches + " " + keyValuePair.Key.Name);
-                    foreach (var ingredient in keyValuePair.Key.Ingredients)
-                    {
-                        Console.WriteLine("\t" + ingredient.Quantity + //TODO ? ingredient.Quantity * numberOfSandwiches
-                                          ingredient.Unit.ToDescriptionString() + " " +
-                                          ingredient.Element.ToDescriptionString());
-                    }
+                    Console.WriteLine("\t" + ingredient.Quantity +
+                                      ingredient.Unit.ToDescriptionString() + " " +
+                                      ingredient.Element.ToDescriptionString());
                 }
             }
 
