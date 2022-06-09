@@ -5,22 +5,22 @@ namespace Sandwicherie.Model
     public enum IngredientElement
     {
         [Description("Bread")]
-        BREAD,
+        Bread,
         [Description("Ham")]
-        HAM,
+        Ham,
         [Description("Butter")]
-        BUTTER,
+        Butter,
         [Description("Salad")]
-        SALAD,
+        Salad,
         [Description("Egg")]
-        EGG,
+        Egg,
         [Description("Tomato")]
-        TOMATO,
+        Tomato,
         [Description("Mayonnaise")]
-        MAYONNAISE,
+        Mayonnaise,
         [Description("Tuna")]
-        TUNA,
+        Tuna,
         [Description("Chicken slice")]
-        CHICKEN_SLICE
+        ChickenSlice
     }
 }

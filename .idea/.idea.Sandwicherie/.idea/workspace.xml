@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c533ae0-4837-434c-8f2d-87802e2401cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Sandwicherie/src/Model/Invoice.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandwicherie/src/Model/InvoiceString.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandwicherie/src/Service/Impl/InvoiceFileFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandwicherie/src/Service/Impl/InvoiceOutput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandwicherie/src/Service/Impl/InvoiceStringFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandwicherie/src/Service/InvoiceFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sandwicherie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sandwicherie/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandwicherie/src/Service/Impl/InvoiceOutputLogger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/src/Service/Impl/InvoiceOutputLogger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/Sandwicherie.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/Sandwicherie.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/bin/Debug/Sandwicherie.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/bin/Debug/Sandwicherie.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/bin/Debug/Sandwicherie.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/bin/Debug/Sandwicherie.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/obj/Debug/Sandwicherie.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/obj/Debug/Sandwicherie.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/obj/Debug/Sandwicherie.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/obj/Debug/Sandwicherie.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/obj/Debug/Sandwicherie.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/obj/Debug/Sandwicherie.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/src/Model/Ingredient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/src/Model/Ingredient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/src/Model/enums/IngredientElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/src/Model/enums/IngredientElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/src/Model/enums/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/src/Model/enums/Unit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/src/Repository/DataStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/src/Repository/DataStore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/src/Service/Impl/InvoiceOutputFile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/src/Service/Impl/InvoiceOutputLogger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/src/Service/Impl/ParserInvoice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sandwicherie/src/Service/Impl/ParserInvoice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandwicherie/src/Service/InvoiceOutput.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +78,8 @@
       <option name="presentableId" value="Default" />
       <updated>1653411360668</updated>
       <workItem from="1653411390499" duration="98000" />
-      <workItem from="1653496088259" duration="2582000" />
+      <workItem from="1653496088259" duration="3352000" />
+      <workItem from="1654790801798" duration="1635000" />
     </task>
     <servers />
   </component>

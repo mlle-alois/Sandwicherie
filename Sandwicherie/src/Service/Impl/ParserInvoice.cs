@@ -13,15 +13,15 @@ public class ParserInvoice : Parser
     {
         var sandwichesMap = new Dictionary<Sandwich, int>
         {
-            { SandwichDatastore.sandwiches[0], 0 },
-            { SandwichDatastore.sandwiches[1], 0 },
-            { SandwichDatastore.sandwiches[2], 0 }
+            { SandwichDatastore.Sandwiches[0], 0 },
+            { SandwichDatastore.Sandwiches[1], 0 },
+            { SandwichDatastore.Sandwiches[2], 0 }
         };
 
         var stringSandwiches = input.Split(',').ToList().ConvertAll(sandwich => sandwich.Trim());
         foreach (var stringSandwich in stringSandwiches)
         {
-            Regex regex = new Regex(@"[0-9]* [A-Za-zé]*");
+            var regex = new Regex(@"[0-9]* [A-Za-zé]*");
             if (!regex.IsMatch(stringSandwich))
             {
                 Console.WriteLine("Invalid sandwich (" + stringSandwich + ")");
@@ -30,7 +30,7 @@ public class ParserInvoice : Parser
 
             var splitedSandwich = stringSandwich.Split(new[] { ' ' }, 2).ToList();
 
-            var foundSandwich = SandwichDatastore.sandwiches.Find(sandwich => sandwich.Name.Equals(splitedSandwich[1]));
+            var foundSandwich = SandwichDatastore.Sandwiches.Find(sandwich => sandwich.Name.Equals(splitedSandwich[1]));
             if (foundSandwich == null)
             {
                 Console.WriteLine("Unknown sandwich (" + splitedSandwich[1] + ")");
