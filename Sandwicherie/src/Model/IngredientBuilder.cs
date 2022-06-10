@@ -8,13 +8,9 @@ namespace Sandwicherie.src.Model
 {
     public class IngredientBuilder
     {
-        public IngredientElement Element { get; set; }
-        public Double Quantity { get; set; }
-        public Unit Unit { get; set; }
-        public IngredientBuilder()
-        {
-
-        }
+        private IngredientElement Element { get; set; }
+        private double Quantity { get; set; }
+        private Unit Unit { get; set; }
 
         public IngredientBuilder WithElement(IngredientElement ingredientElement)
         {
@@ -22,7 +18,7 @@ namespace Sandwicherie.src.Model
             return this;
         }
 
-        public IngredientBuilder WithQuantity(Double quantity)
+        public IngredientBuilder WithQuantity(double quantity)
         {
             Quantity = quantity;
             return this;
@@ -37,13 +33,12 @@ namespace Sandwicherie.src.Model
 
         public IngredientBuilder WithoutUnit()
         {
-            Unit = Unit.EMPTY;
+            Unit = Unit.Empty;
             return this;
         }
 
-        public Ingredient build()
+        public Ingredient Build()
         {
-   
             return new Ingredient(Element, Quantity, Unit);
         }
     }
