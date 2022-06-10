@@ -5,3 +5,10 @@ C:\Users\alois\Documents\4AL\Design Patterns en C#\Sandwicherie\Sandwicherie\obj
 C:\Users\alois\Documents\4AL\Design Patterns en C#\Sandwicherie\Sandwicherie\obj\Debug\Sandwicherie.csproj.CoreCompileInputs.cache
 C:\Users\alois\Documents\4AL\Design Patterns en C#\Sandwicherie\Sandwicherie\obj\Debug\Sandwicherie.exe
 C:\Users\alois\Documents\4AL\Design Patterns en C#\Sandwicherie\Sandwicherie\obj\Debug\Sandwicherie.pdb
+C:\Users\InfoWare31\Source\Repos\Sandwicherie\Sandwicherie\bin\Debug\Sandwicherie.exe
+C:\Users\InfoWare31\Source\Repos\Sandwicherie\Sandwicherie\bin\Debug\Sandwicherie.pdb
+C:\Users\InfoWare31\Source\Repos\Sandwicherie\Sandwicherie\obj\Debug\Sandwicherie.csproj.AssemblyReference.cache
+C:\Users\InfoWare31\Source\Repos\Sandwicherie\Sandwicherie\obj\Debug\Sandwicherie.csproj.SuggestedBindingRedirects.cache
+C:\Users\InfoWare31\Source\Repos\Sandwicherie\Sandwicherie\obj\Debug\Sandwicherie.csproj.CoreCompileInputs.cache
+C:\Users\InfoWare31\Source\Repos\Sandwicherie\Sandwicherie\obj\Debug\Sandwicherie.exe
+C:\Users\InfoWare31\Source\Repos\Sandwicherie\Sandwicherie\obj\Debug\Sandwicherie.pdb

@@ -1,3 +1,5 @@
+using System;
+
 namespace Sandwicherie.Model
 {
     public class Ingredient
@@ -6,11 +8,13 @@ namespace Sandwicherie.Model
         public double Quantity { get; }
         public Unit Unit { get; }
 
-        public Ingredient(IngredientElement element, double quantity, Unit unit)
-        {
-            Quantity = quantity;
-            Element = element;
-            Unit = unit;
-        }
+        
+         public Ingredient(IngredientElement element, double quantity, Unit unit)
+          {
+              Quantity = quantity;
+              Element = element;
+              Unit = unit;
+          }
+
     }
 }

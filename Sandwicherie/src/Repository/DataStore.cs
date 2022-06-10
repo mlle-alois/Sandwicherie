@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Sandwicherie.Model;
+using Sandwicherie.src.Model;
 
 namespace Sandwicherie.Repository
 {
@@ -7,29 +8,80 @@ namespace Sandwicherie.Repository
     {
         public static readonly List<Sandwich> Sandwiches = new List<Sandwich>()
         {
-            new Sandwich("Ham butter", new List<Ingredient>()
+               new Sandwich("Ham Butter", new List<Ingredient>()
             {
-                { new(IngredientElement.Bread, 1, Unit.Empty) },
-                { new(IngredientElement.Ham, 1, Unit.Empty) },
-                { new(IngredientElement.Butter, 10, Unit.Gram) }
+                { new IngredientBuilder().
+                       WithElement(IngredientElement.Bread)
+                       .WithQuantity(1)
+                       .Build() },
+                 { new IngredientBuilder().
+                       WithElement(IngredientElement.Ham)
+                       .WithQuantity(1)
+                       .Build() },
+                  { new IngredientBuilder().
+                       WithElement(IngredientElement.Butter)
+                       .WithQuantity(10)
+                       .WithUnit(Unit.Gram)
+                       .Build() },
             }, 3.5),
-            new Sandwich("Chicken and raw vegetables", new List<Ingredient>()
+
+              new Sandwich("Chicken and raw vegetables", new List<Ingredient>()
             {
-                { new(IngredientElement.Bread, 1, Unit.Empty) },
-                { new(IngredientElement.Egg, 1, Unit.Empty) },
-                { new(IngredientElement.Tomato, 0.5, Unit.Empty) },
-                { new(IngredientElement.ChickenSlice, 1, Unit.Empty) },
-                { new(IngredientElement.Mayonnaise, 10, Unit.Gram) },
-                { new(IngredientElement.Salad, 10, Unit.Gram) }
+                { new IngredientBuilder().
+                       WithElement(IngredientElement.Bread)
+                       .WithQuantity(1)
+                       .Build() },
+                 { new IngredientBuilder().
+                       WithElement(IngredientElement.Egg)
+                       .WithQuantity(1)
+                       .Build() },
+                  { new IngredientBuilder().
+                       WithElement(IngredientElement.Tomato)
+                       .WithQuantity(0.5)
+                       .Build() },
+                  { new IngredientBuilder().
+                       WithElement(IngredientElement.ChickenSlice)
+                       .WithQuantity(1)
+                       .Build() },
+                  { new IngredientBuilder().
+                       WithElement(IngredientElement.Mayonnaise)
+                       .WithQuantity(10)
+                       .WithUnit(Unit.Gram)
+                       .Build() },
+                  { new IngredientBuilder().
+                       WithElement(IngredientElement.Salad)
+                       .WithQuantity(10)
+                       .WithUnit(Unit.Gram)
+                       .Build() },
             }, 5),
-            new Sandwich("Dieppois", new List<Ingredient>()
+              new Sandwich("Dieppois", new List<Ingredient>()
             {
-                { new(IngredientElement.Bread, 1, Unit.Empty) },
-                { new(IngredientElement.Tuna, 50, Unit.Gram) },
-                { new(IngredientElement.Tomato, 0.5, Unit.Empty) },
-                { new(IngredientElement.Mayonnaise, 10, Unit.Gram) },
-                { new(IngredientElement.Salad, 10, Unit.Gram) }
-            }, 4.5)
+                { new IngredientBuilder().
+                       WithElement(IngredientElement.Bread)
+                       .WithQuantity(1)
+                       .Build() },
+                 { new IngredientBuilder().
+                       WithElement(IngredientElement.Tuna)
+                       .WithQuantity(50)
+                       .WithUnit(Unit.Gram)
+                       .Build() },
+                  { new IngredientBuilder().
+                       WithElement(IngredientElement.Tomato)
+                       .WithQuantity(0.5)
+                       .Build() },
+             
+                  { new IngredientBuilder().
+                       WithElement(IngredientElement.Mayonnaise)
+                       .WithQuantity(10)
+                       .WithUnit(Unit.Gram)
+                       .Build() },
+                  { new IngredientBuilder().
+                       WithElement(IngredientElement.Salad)
+                       .WithQuantity(10)
+                       .WithUnit(Unit.Gram)
+                       .Build() },
+
+            }, 4.5),
         };
     }
 }
