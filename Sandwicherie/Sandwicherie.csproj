@@ -48,6 +48,7 @@
         <Compile Include="src\Model\Ingredient.cs" />
         <Compile Include="src\Model\IngredientBuilder.cs" />
         <Compile Include="src\Model\Invoice.cs" />
+        <Compile Include="src\Model\InvoiceFile.cs" />
         <Compile Include="src\Model\InvoiceString.cs" />
         <Compile Include="src\Model\Sandwich.cs" />
         <Compile Include="src\Repository\DataStore.cs" />
