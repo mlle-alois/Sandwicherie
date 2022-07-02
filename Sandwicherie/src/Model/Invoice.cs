@@ -1,6 +1,12 @@
-﻿namespace Sandwicherie.Model;
+﻿using System.Collections.Generic;
 
-public interface Invoice
+namespace Sandwicherie.Model;
+
+public class Invoice
 {
-    void PrintInvoice();
+    public Dictionary<Sandwich, int> sandwichs { get; }
+    public Invoice(Dictionary<Sandwich, int> sandwichs)
+    {
+        this.sandwichs = sandwichs;
+    }
 }

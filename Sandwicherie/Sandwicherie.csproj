@@ -48,18 +48,16 @@
         <Compile Include="src\Model\Ingredient.cs" />
         <Compile Include="src\Model\IngredientBuilder.cs" />
         <Compile Include="src\Model\Invoice.cs" />
-        <Compile Include="src\Model\InvoiceFile.cs" />
-        <Compile Include="src\Model\InvoiceString.cs" />
         <Compile Include="src\Model\Sandwich.cs" />
         <Compile Include="src\Repository\DataStore.cs" />
+        <Compile Include="src\Service\Context.cs" />
         <Compile Include="src\Service\Impl\InputReaderCLI.cs" />
-        <Compile Include="src\Service\Impl\InvoiceFileFactory.cs" />
-        <Compile Include="src\Service\Impl\InvoiceOutput.cs" />
-        <Compile Include="src\Service\Impl\InvoiceStringFactory.cs" />
+        <Compile Include="src\Service\Impl\InvoiceConsoleStrategy.cs" />
+        <Compile Include="src\Service\Impl\InvoiceFileStrategy.cs" />
         <Compile Include="src\Service\Impl\ParserInvoice.cs" />
         <Compile Include="src\Service\InputReader.cs" />
-        <Compile Include="src\Service\InvoiceFactory.cs" />
         <Compile Include="src\Service\Parser.cs" />
+        <Compile Include="src\Service\Strategy.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

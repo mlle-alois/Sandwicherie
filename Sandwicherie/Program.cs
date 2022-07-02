@@ -10,15 +10,21 @@ namespace Sandwicherie
         {
             InputReader inputReader = new InputReaderCLI();
             Parser parser = new ParserInvoice();
-            InvoiceFactory invoiceFactory = new InvoiceStringFactory();
-            var invoiceOutput = new InvoiceOutput(invoiceFactory);
+            Context context = new Context();
             do
             {
                 var order = inputReader.Read();
-
-                var sandwiches = parser.Parse(order);
-
-                invoiceOutput.Apply(sandwiches);
+                var outputType = inputReader.ChooseOutput();
+                if (outputType)
+                {
+                    context.strategy = new InvoiceFileStrategy();
+                }
+                else
+                {
+                    context.strategy = new InvoiceConsoleStrategy();
+                }
+                var invoice = parser.Parse(order);
+                context.executeStrategy(invoice);
             } while (!inputReader.StopInput());
         }
     }
