@@ -30,5 +30,25 @@ public class InputReaderCLI : InputReader
                 }
         }
     }
+
+    public bool ChooseOutput()
+    {
+        while (true)
+        {
+            Console.WriteLine("Do you want a file order ? (y/n)");
+            var answer = Console.ReadLine();
+            if (answer != null)
+                switch (answer.ToLower())
+                {
+                    case "y":
+                        return true;
+                    case "n":
+                        return false;
+                    default:
+                        Console.WriteLine("Invalid answer!");
+                        continue;
+                }
+        }
+    }
 }
 }

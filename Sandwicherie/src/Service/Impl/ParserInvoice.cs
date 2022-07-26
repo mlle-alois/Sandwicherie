@@ -9,7 +9,7 @@ namespace Sandwicherie.Service.Impl;
 
 public class ParserInvoice : Parser
 {
-    public Dictionary<Sandwich, int> Parse(string input)
+    public Invoice Parse(string input)
     {
         var sandwichesMap = new Dictionary<Sandwich, int>
         {
@@ -40,6 +40,6 @@ public class ParserInvoice : Parser
             sandwichesMap[foundSandwich] = numberOfSandwiches + sandwichesMap[foundSandwich];
         }
 
-        return sandwichesMap;
+        return new Invoice(sandwichesMap);
     }
 }

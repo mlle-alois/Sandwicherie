@@ -4,5 +4,6 @@ namespace Sandwicherie.Service
     {
         string Read();
         bool StopInput();
+        bool ChooseOutput();
     }
 }
