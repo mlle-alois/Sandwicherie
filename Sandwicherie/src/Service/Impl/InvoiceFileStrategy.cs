@@ -27,7 +27,7 @@ public class InvoiceFileStrategy: Strategy
                    }
                }
        
-            //   if (!(totalAmount > 0)) return new InvoiceString("");
+               if (!(totalAmount > 0)) return;
                invoiceValue += "Total price : " + totalAmount + "€" + "\n";
                using FileStream fs = File.Create(PATH);
                byte[] data = Encoding.UTF8.GetBytes(invoiceValue);
@@ -35,6 +35,5 @@ public class InvoiceFileStrategy: Strategy
 
                Console.WriteLine("Invoice file generated");
     }
-
-
+    
 }
