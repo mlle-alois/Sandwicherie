@@ -25,12 +25,11 @@ public class InvoiceConsoleStrategy: Strategy
                                        ingredient.Element.ToDescriptionString() + "\n";
                    }
                }
-       
-            //   if (!(totalAmount > 0)) return new InvoiceString("");
+
+               if (!(totalAmount > 0)) return;
                invoiceValue += "Total price : " + totalAmount + "€" + "\n";
                Console.OutputEncoding = Encoding.UTF8;
                Console.WriteLine(invoiceValue);
     }
-
-
+    
 }
