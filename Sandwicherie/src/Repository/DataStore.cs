@@ -8,7 +8,7 @@ namespace Sandwicherie.Repository
     {
         public static readonly List<Sandwich> Sandwiches = new List<Sandwich>()
         {
-               new Sandwich("Ham Butter", new List<Ingredient>()
+               new Sandwich("Ham butter", new List<Ingredient>()
             {
                 { new IngredientBuilder().
                        WithElement(IngredientElement.Bread)
